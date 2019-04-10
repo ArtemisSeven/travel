@@ -21,13 +21,13 @@ export default {
       },
       swiperList: [{
         id: '001',
-        imgUrl: 'http://img5.imgtn.bdimg.com/it/u=3409737275,2744185252&fm=26&gp=0.jpg'
+        imgUrl: 'https://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20193/d7bbc21db442366a882e04ddc984669a.jpg_750x200_85e640d9.jpg'
       }, {
         id: '002',
-        imgUrl: 'http://img0.imgtn.bdimg.com/it/u=2033318980,3797978556&fm=26&gp=0.jpg'
+        imgUrl: 'https://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20194/389d0194766566f8f1185aa19b759c25.jpg_750x200_22620261.jpg'
       }, {
         id: '003',
-        imgUrl: 'https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=330142140,1934812749&fm=173&app=25&f=JPEG?w=640&h=373&s=FF24556EEC2EA73449E039B902003013'
+        imgUrl: 'https://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20193/b23a39921e8b78f38b61412d691d93ea.jpg_750x200_942ed7bd.jpg'
       }]
     }
   }
