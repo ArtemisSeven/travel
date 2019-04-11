@@ -22,7 +22,7 @@ export default {
 <!--因为设计师给的是2倍像素=86rem，那么实际像素是43rem，又100rem=1px-->
 <!--所以43rem=86px/(100rem/px)=.86rem-->
 <style lang="stylus" scoped>
-
+  @import '~styles/varibles.styl'
   .header
     display: flex
     line-height: $headerHeight

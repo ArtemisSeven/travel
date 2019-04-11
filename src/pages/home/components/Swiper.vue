@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper">
-  <swiper :options="swiperOption">
+  <swiper :options="swiperOption" v-if="showSwiper">
     <swiper-slide v-for="item of swiperList" :key="item.id">
       <img class="swiper-img" :src="item.imgUrl" />
     </swiper-slide>
@@ -22,6 +22,11 @@ export default {
         pagination: '.swiper-pagination',
         loop: true
       }
+    }
+  },
+  computed: {
+    showSwiper () {
+      return this.swiperList.length
     }
   }
 }

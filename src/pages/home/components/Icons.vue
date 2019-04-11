@@ -5,8 +5,8 @@
         <div class="icon" v-for="item of page" :key="item.id">
           <div class="icon-img">
             <img class="icon-img-content" :src="item.imgUrl"/>
-            <p class="icon-desc">{{item.desc}}</p>
           </div>
+          <p class="icon-desc">{{item.desc}}</p>
         </div>
       </swiper-slide>
     </swiper>
