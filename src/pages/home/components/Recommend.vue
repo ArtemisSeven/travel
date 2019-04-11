@@ -17,30 +17,8 @@
 <script>
 export default {
   name: 'HomeRecommend',
-  data () {
-    return {
-      recommendList: [{
-        id: '0001',
-        imgUrl: 'https://imgs.qunarzz.com/sight/p0/1507/64/34362835b4a219af8b36803d31a6380f.water.jpg_200x200_bc5c0452.jpg',
-        title: '浮在海上的绿洲',
-        desc: '南国滨海之城，避寒胜地，有暖暖的阳光，南国滨海之城，避寒胜地，有暖暖的阳光南国滨海之城，避寒胜地，有暖暖的阳光南国滨海之城，避寒胜地，有暖暖的阳光南国滨海之城，避寒胜地，有暖暖的阳光'
-      }, {
-        id: '0002',
-        imgUrl: 'https://imgs.qunarzz.com/sight/p0/1507/64/34362835b4a219af8b36803d31a6380f.water.jpg_200x200_bc5c0452.jpg',
-        title: '浮在海上的绿洲',
-        desc: '南国滨海之城，避寒胜地，有暖暖的阳光，南国滨海之城，避寒胜地，有暖暖的阳光南国滨海之城，避寒胜地，有暖暖的阳光南国滨海之城，避寒胜地，有暖暖的阳光南国滨海之城，避寒胜地，有暖暖的阳光'
-      }, {
-        id: '0003',
-        imgUrl: 'https://imgs.qunarzz.com/sight/p0/1507/64/34362835b4a219af8b36803d31a6380f.water.jpg_200x200_bc5c0452.jpg',
-        title: '浮在海上的绿洲',
-        desc: '南国滨海之城，避寒胜地，有暖暖的阳光，南国滨海之城，避寒胜地，有暖暖的阳光南国滨海之城，避寒胜地，有暖暖的阳光南国滨海之城，避寒胜地，有暖暖的阳光南国滨海之城，避寒胜地，有暖暖的阳光'
-      }, {
-        id: '0004',
-        imgUrl: 'https://imgs.qunarzz.com/sight/p0/1507/64/34362835b4a219af8b36803d31a6380f.water.jpg_200x200_bc5c0452.jpg',
-        title: '浮在海上的绿洲',
-        desc: '南国滨海之城，避寒胜地，有暖暖的阳光，南国滨海之城，避寒胜地，有暖暖的阳光南国滨海之城，避寒胜地，有暖暖的阳光南国滨海之城，避寒胜地，有暖暖的阳光南国滨海之城，避寒胜地，有暖暖的阳光'
-      }]
-    }
+  props: {
+    recommendList: Array
   }
 }
 </script>

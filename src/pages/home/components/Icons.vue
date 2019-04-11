@@ -16,48 +16,14 @@
 <script>
 export default {
   name: 'Icons',
+  props: {
+    iconList: Array
+  },
   data () {
     return {
       swiperOption: {
         autoplay: false
-      },
-      iconList: [{
-        id: '001',
-        imgUrl: 'https://imgs.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png',
-        desc: 'aaa'
-      }, {
-        id: '002',
-        imgUrl: 'https://imgs.qunarzz.com/piao/fusion/1803/a6/6d97515091789602.png',
-        desc: 'bbb'
-      }, {
-        id: '003',
-        imgUrl: 'https://imgs.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png',
-        desc: 'aaa'
-      }, {
-        id: '004',
-        imgUrl: 'https://imgs.qunarzz.com/piao/fusion/1803/a6/6d97515091789602.png',
-        desc: 'bbb'
-      }, {
-        id: '005',
-        imgUrl: 'https://imgs.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png',
-        desc: 'aaa'
-      }, {
-        id: '006',
-        imgUrl: 'https://imgs.qunarzz.com/piao/fusion/1803/a6/6d97515091789602.png',
-        desc: 'bbfasfasfasfasfasfasfasb'
-      }, {
-        id: '007',
-        imgUrl: 'https://imgs.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png',
-        desc: 'aaa'
-      }, {
-        id: '008',
-        imgUrl: 'https://imgs.qunarzz.com/piao/fusion/1803/a6/6d97515091789602.png',
-        desc: 'bbb'
-      }, {
-        id: '009',
-        imgUrl: 'https://imgs.qunarzz.com/piao/fusion/1803/a6/6d97515091789602.png',
-        desc: 'bbfb'
-      }]
+      }
     }
   },
   computed: {
