@@ -26,6 +26,7 @@ export default {
   },
   data () {
     return {
+      city: String,
       swiperList: [],
       iconList: [],
       recommendList: [],
@@ -41,6 +42,7 @@ export default {
       const result = res.data
       if (result.ret && result.data) {
         const data = result.data
+        this.city = data.city
         this.swiperList = data.swiperList
         this.iconList = data.iconList
         this.recommendList = data.recommendList
