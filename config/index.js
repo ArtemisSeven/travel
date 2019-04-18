@@ -54,10 +54,10 @@ module.exports = {
     // Template for index.html
     index: path.resolve(__dirname, '../dist/index.html'),
 
-    // Paths
+    // Paths 讲dist文件夹改成project，直接把project文件夹丢给后端即可
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/',
+    assetsPublicPath: '/project',
 
     /**
      * Source Maps
